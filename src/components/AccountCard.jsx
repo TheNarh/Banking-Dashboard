@@ -9,7 +9,7 @@ function AccountCard() {
         GH • 0012 3456 7890
       </p>
 
-      <p className="text-sm text-gray-500 dark:text-white-400 mb-1">Available Balance</p>
+      <p className="text-sm text-gray-500 dark:text-white mb-1">Available Balance</p>
       <h3 className="text-4xl font-bold text-blue-600">GHS 12,500.00</h3>
     </div>
   );
