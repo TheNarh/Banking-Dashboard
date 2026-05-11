@@ -58,8 +58,8 @@ function TransactionList() {
     .filter((t) => t.description.toLowerCase().includes(search.toLowerCase()));
 
   return (
-    <div className="bg-stone-100 rounded-2xl shadow-md p-6 mb-6">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">
+    <div className="bg-stone-100 dark:bg-gray-800 rounded-2xl shadow-md p-6 mb-6">
+      <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-4">
         Recent Transactions
       </h2>
 
@@ -98,10 +98,10 @@ function TransactionList() {
           filteredTransactions.map((transaction) => (
             <li
               key={transaction.id}
-              className="flex justify-between items-center py-3 border-b border-gray-100 last:border-none"
+              className="flex justify-between items-center py-3 border-b border-gray-100 dark:border-gray-700 last:border-none"
             >
               <div>
-                <p className="font-medium text-gray-800">
+                <p className="font-medium text-gray-800 dark:text-white">
                   {transaction.description}
                 </p>
                 <p className="text-sm text-gray-400">{transaction.date}</p>
