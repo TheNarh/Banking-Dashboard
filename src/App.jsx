@@ -14,7 +14,7 @@ function App() {
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
 
       <div className="p-6">
-        <h1 className="text-3xl font-bold text-stone-800 mb-6 text-center">
+        <h1 className="text-3xl font-bold text-stone-800 dark:text-white mb-6 text-center">
           My Banking Dashboard
         </h1>
 
