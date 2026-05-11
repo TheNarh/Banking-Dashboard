@@ -55,26 +55,26 @@ function SummaryCard() {
   const net = totalIncome - totalExpenses;
 
   return (
-    <div className="bg-stone-100 rounded-2xl shadow-md p-6 mb-6">
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Monthly Summary</h2>
+    <div className="bg-stone-100 dark:bg-gray-800 rounded-2xl shadow-md p-6 mb-6">
+      <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Monthly Summary</h2>
 
       <div className="grid grid-cols-3 gap-4">
-        <div className="bg-green-50 rounded-xl p-4 text-center">
-          <p className="text-sm text-gray-500 mb-1">Total Income</p>
+        <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-4 text-center">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Total Income</p>
           <p className="text-xl font-bold text-green-600">
             GHS {totalIncome.toLocaleString()}
           </p>
         </div>
 
-        <div className="bg-red-50 rounded-xl p-4 text-center">
-          <p className="text-sm text-gray-500 mb-1">Total Expenses</p>
+        <div className="bg-red-50 dark:bg-red-900/20 rounded-xl p-4 text-center">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Total Expenses</p>
           <p className="text-xl font-bold text-red-500">
             GHS {totalExpenses.toLocaleString()}
           </p>
         </div>
 
-        <div className="bg-blue-50 rounded-xl p-4 text-center">
-          <p className="text-sm text-gray-500 mb-1">Net Balance</p>
+        <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 text-center">
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">Net Balance</p>
           <p
             className={`text-xl font-bold ${net >= 0 ? "text-blue-600" : "text-red-500"}`}
           >
