@@ -19,8 +19,8 @@ const data = [
 
 function SpendingChart() {
   return (
-    <div className="bg-stone-100 rounded-2xl shadow-md p-6 mb-6">
-      <h2 className="text-xl font-bold text-gray-800 mb-1">
+    <div className="bg-stone-100 dark:bg-gray-800 rounded-2xl shadow-md p-6 mb-6">
+      <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-1">
         Income vs Expenses
       </h2>
       <p className="text-sm text-gray-400 mb-6">Last 5 months overview</p>
