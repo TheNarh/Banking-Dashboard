@@ -53,7 +53,7 @@ account summaries, transaction history, spending analytics and more.
 
 ```bash
 # Clone the repository
-git clone https://github.com/TheNarh/banking-dashboard.git
+git clone https://github.com/TheNarh/Banking-Dashboard.git
 
 # Navigate into the project
 cd banking-dashboard
@@ -83,7 +83,7 @@ src/
 
 ---
 
-## 🔮 Planned Features
+## Planned Features
 
 - [ ] Dark mode toggle
 - [ ] Authentication screen (login page)
